@@ -1,0 +1,11 @@
+<html>
+<body>
+<%
+if(session!=null)
+{
+session.invalidate();
+response.sendRedirect("alogin.html");
+}
+%>
+</body>
+</html>
